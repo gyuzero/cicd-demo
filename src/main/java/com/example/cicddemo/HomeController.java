@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "cicd-demo";
+        return "cicd-demo v1";
     }
 
 }
